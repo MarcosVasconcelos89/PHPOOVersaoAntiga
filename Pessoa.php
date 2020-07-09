@@ -1,0 +1,27 @@
+<?php
+class Pessoa {
+
+    private $nome;
+    private $email;
+
+    //encapsulamento
+    //ALT + INSERT
+    //GETTER AND SETTER
+    public function getNome() {
+        return $this->nome;
+    }
+
+    public function setNome($nome) {
+        $this->nome = $nome;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function setEmail($email) {
+        $this->email = $email;
+    }
+
+}
+?>

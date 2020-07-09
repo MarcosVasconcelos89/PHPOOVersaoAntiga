@@ -1,0 +1,11 @@
+CREATE DATABASE aula9;
+
+USE aula9;
+
+CREATE TABLE produto(
+idproduto INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(50) NOT NULL,
+preco DOUBLE(10,2) NOT NULL);
+
+DESC produto;
+
